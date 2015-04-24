@@ -36,6 +36,7 @@ The "tidydata" dataframe meets the following criteria laid out by the paper "Tid
 3. Each type of observational unit forms a table.
 
 In addition, some housekeeping I did:
+
 4. the column names are all lower case, free of punctuation marks ("-" or "_" ok).
 5. the column names are descriptive but not overly lengthy.
 6. the variables are descriptive even if they are factors, rather than using number codes.
