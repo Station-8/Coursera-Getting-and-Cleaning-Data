@@ -1,0 +1,128 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1343\cocoasubrtf160
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww12600\viewh10200\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs28 \cf0 \
+This code book covers the variable and data names used in the run_analysis output data.\
+\
+For further clarification on the test methods please refer to the features_info.txt file.\
+\
+Codes:\
+\
+\
+activity:  The activity of the subject (walking, walking upstairs, walking downstairs, sitting, standing, or laying)\
+                             \
+subject:  The subject number being measured (one of thirty anonymous subjects)\
+                        \
+test_or_train:  Notes whether the subject was part of the testing group or training group\
+\
+Time domain measurements:\
+\
+	Body acceleration:\
+\
+		Means of signals (x, y and z directions):\
+         \
+			time_bodyacc-mean-x                \
+			time_bodyacc-mean-y                  \
+			time_bodyacc-mean-z  \
+\
+		Standard deviation of signals (x, y, and z directions):\
+               \
+			time_bodyacc-std-x                  \
+			time_bodyacc-std-y                  \
+ 			time_bodyacc-std-z \
+\
+	Gravity acceleration:\
+\
+		Means of signals (x, y and z directions):\
+\
+              		time_gravityacc-mean-x              \
+			time_gravityacc-mean-y               \
+			time_gravityacc-mean-z\
+\
+		Standard deviation of signals (x, y, and z directions):\
+\
+              		time_gravityacc-std-x\
+               		time_gravityacc-std-y\
+              		time_gravityacc-std-z \
+\
+	Body acceleration jerk:\
+\
+		Means of signals (x, y and z directions):\
+              \
+ 			time_bodyaccjerk-mean-x             \
+			time_bodyaccjerk-mean-y              \
+			time_bodyaccjerk-mean-z\
+\
+		Standard deviation of signals (x, y, and z directions):\
+		            \
+			time_bodyaccjerk-std-x              \
+			time_bodyaccjerk-std-y              \
+			time_bodyaccjerk-std-z\
+\
+	Body gyro:\
+\
+		Means of signals (x, y and z directions):\
+\
+		     	time_bodygyro-mean-x                \
+			time_bodygyro-mean-y                \
+			time_bodygyro-mean-z\
+\
+		Standard deviation of signals (x, y, and z directions): \
+                \
+			time_bodygyro-std-x                 \
+			time_bodygyro-std-y	                \
+			time_bodygyro-std-z\
+\
+	Body gyro jerk\
+\
+		Means of signals (x, y and z directions):\
+\
+                  		time_bodygyrojerk-mean-x          \
+			time_bodygyrojerk-mean-y            \
+			time_bodygyrojerk-mean-z\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 		Standard deviation of signals (x, y, and z directions): \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \
+            		time_bodygyrojerk-std-x             \
+			time_bodygyrojerk-std-y             \
+			time_bodygyrojerk-std-z \
+            \
+	time_bodyaccmag-mean :  mean of the magnitude of body acceleration               \
+	time_bodyaccmag-std:  std deviation of magnitude of body acceleration                  \
+	time_gravityaccmag-mean:  mean of magnitude of gravity acceleration             \
+	time_gravityaccmag-std:  std deviation of magnitude of gravity acceleration             \
+	time_bodyaccjerkmag-mean: mean of magnitude of body acceleration jerk            \
+	time_bodyaccjerkmag-std: std deviation of magnitude of body acceleration jerk             \
+	time_bodygyromag-mean:  mean of magnitude of body gyro               \
+	time_bodygyromag-std:  std deviation of magnitude of body gyro                \
+	time_bodygyrojerkmag-mean:  mean of magnitude of body gyro jerk           \
+	time_bodygyrojerkmag-std:  std deviation of body gyro jerk            \
+\
+Fourier series-based measurements are are similar to the above.  The names are as follows:\
+\
+"fourier_bodyacc-mean-x"              \
+[45] "fourier_bodyacc-mean-y"               "fourier_bodyacc-mean-z"              \
+[47] "fourier_bodyacc-std-x"                "fourier_bodyacc-std-y"               \
+[49] "fourier_bodyacc-std-z"                "fourier_bodyacc-meanfreq-x"          \
+[51] "fourier_bodyacc-meanfreq-y"           "fourier_bodyacc-meanfreq-z"          \
+[53] "fourier_bodyaccjerk-mean-x"           "fourier_bodyaccjerk-mean-y"          \
+[55] "fourier_bodyaccjerk-mean-z"           "fourier_bodyaccjerk-std-x"           \
+[57] "fourier_bodyaccjerk-std-y"            "fourier_bodyaccjerk-std-z"           \
+[59] "fourier_bodyaccjerk-meanfreq-x"       "fourier_bodyaccjerk-meanfreq-y"      \
+[61] "fourier_bodyaccjerk-meanfreq-z"       "fourier_bodygyro-mean-x"             \
+[63] "fourier_bodygyro-mean-y"              "fourier_bodygyro-mean-z"             \
+[65] "fourier_bodygyro-std-x"               "fourier_bodygyro-std-y"              \
+[67] "fourier_bodygyro-std-z"               "fourier_bodygyro-meanfreq-x"         \
+[69] "fourier_bodygyro-meanfreq-y"          "fourier_bodygyro-meanfreq-z"         \
+[71] "fourier_bodyaccmag-mean"              "fourier_bodyaccmag-std"              \
+[73] "fourier_bodyaccmag-meanfreq"          "fourier_bodybodyaccjerkmag-mean"     \
+[75] "fourier_bodybodyaccjerkmag-std"       "fourier_bodybodyaccjerkmag-meanfreq" \
+[77] "fourier_bodybodygyromag-mean"         "fourier_bodybodygyromag-std"         \
+[79] "fourier_bodybodygyromag-meanfreq"     "fourier_bodybodygyrojerkmag-mean"    \
+[81] "fourier_bodybodygyrojerkmag-std"      "fourier_bodybodygyrojerkmag-meanfreq"\
+> }
